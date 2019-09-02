@@ -41,6 +41,12 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.magese</groupId>
+            <artifactId>ik-analyzer</artifactId>
+            <version>8.1.1</version>
+        </dependency>
+
     </dependencies>
 
     <properties>

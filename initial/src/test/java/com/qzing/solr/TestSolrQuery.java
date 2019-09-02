@@ -21,7 +21,7 @@ public class TestSolrQuery {
     public static void main(String[] args) throws IOException, SolrServerException {
         SolrClient client = new HttpSolrClient.Builder(solrServerUrl + "/" + solrCroeHome).build();
 
-        SolrQuery query = new SolrQuery("content_text:慧聚 东软 "); //and name:齐心");
+        SolrQuery query = new SolrQuery("content_text:慧聚"); //and name:齐心");
         query.setParam("hl.fl", "content_text");//设置高亮字段
         // 实现分页的查询
         query.setStart(0);
